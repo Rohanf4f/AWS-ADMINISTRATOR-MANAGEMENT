@@ -528,7 +528,7 @@ Allow:
   ecr:GetAuthorizationToken
 ```
 
-AWS documents identity-based policies as policies attached to IAM identities that grant permissions to users and roles. citeturn0search1turn0search3
+AWS documents identity-based policies as policies attached to IAM identities that grant permissions to users and roles.
 
 ---
 
@@ -610,7 +610,7 @@ S3 Bucket
 
 Both policy types can participate in authorization.
 
-Within an account, AWS's exact evaluation behavior depends on the principal and policy types involved, so do not reduce the model to simply "one policy wins." citeturn0search0turn0search14
+Within an account, AWS's exact evaluation behavior depends on the principal and policy types involved, so do not reduce the model to simply "one policy wins."
 
 ---
 
