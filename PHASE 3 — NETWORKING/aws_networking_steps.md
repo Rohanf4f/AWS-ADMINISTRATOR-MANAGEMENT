@@ -138,8 +138,9 @@ The `/16` or `/24` is the prefix length.
 For learning, remember:
 
 ```text
-/16 -> larger address range
-/24 -> smaller address range
+/16 → 16 bits network + 16 bits host
+/24 → 24 bits network + 8 bits host
+/32 → 32 bits network + 0 bits host
 ```
 
 A subnet must be contained within the VPC CIDR and should not overlap another subnet in the same VPC.
